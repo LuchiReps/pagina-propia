@@ -15,7 +15,7 @@
 <body>
     <header>
 
-        <p> PRUEBA </p>
+        <h1>PRUEBA</h1>
 
     </header>
 
@@ -24,13 +24,14 @@
             <li><a href="articulos"> Articulos</a> </li>
             <li> <a href="imagenes">Imagenes</a></li>
             <li> <a href="enlaces">Enlaces</a></li>
+            <li> <a href="tabla">Tabla</a></li>
             <li> <a href="Formularios">Formulario</a></li>
         </ul>
     </nav>
 
     <body>
         <main>
-            <article>
+            <article class="articulos" id="articulos">
                 <section>
                     <h2> Articulos </h2>
                     <h3>Articulo 1</h3>
@@ -96,21 +97,76 @@
             </article>
 
 
-            <article>
+            <article class="imagenes">
+
+                <h2>Imagenes</h2>
                 <section>
-                    <h4> </h4>
+                    <h3>Imagen 1</h3>
 
-                </section>
-                <img src="" alt="">
-                <section>
-
+                    <img src="../pagina-propia/img/foto1.jpg" alt="" width="200">
                 </section>
 
                 <section>
-
+                    <h3>Imagen 2</h3>
+                    <img src="../pagina-propia/img/foto2.jpg" alt="" width="200">
                 </section>
+
+                <section>
+                    <h3>Imagen 3</h3>
+                    <img src="../pagina-propia/img/foto3.jpg" alt="" width="200">
+                </section>
+
+                <section>
+                    <h3>Imagen 4</h3>
+                    <img src="../pagina-propia/img/foto4.jpg" alt="" width="200">
+                </section>
+            </article>
+
+            <br>
+
+            <article id="tabla">
+
+                <table>
+                    <tr>
+                        <td><img src="../pagina-propia/img/bussines1.jpg" alt="" width="200"></td>
+                        <td><img src="../pagina-propia/img/bussines2.jpg" alt="" width="200"></td>
+                        <td><img src="../pagina-propia/img/bussines3.jpg" alt="" width="200" height="150"></td>
+                        <td><img src="../pagina-propia/img/bussines4.jpg" alt="" width="200" height="150"></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="../pagina-propia/img/zorro.jpg" alt="" width="200" height="150">
+                        </td>
+                        <td>
+                            <img src="../pagina-propia/img/ciervo.jpg" alt="" width="200" height="150">
+                        </td>
+                        <td>
+                            <img src="../pagina-propia/img/pato.jpg" alt="" width="200" height="150">
+                        </td>
+                        <td>
+                            <img src="../pagina-propia/img/conejos.jpg" alt="" width="200" height="150">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> <img src="../pagina-propia/img/foto1.jpg" alt="" width="200" height="150"> </td>
+                        <td> <img src="../pagina-propia/img/foto2.jpg" alt="" width="200" height="150"> </td>
+                        <td> <img src="../pagina-propia/img/foto3.jpg" alt="" width="200" height="150"> </td>
+                        <td> <img src="../pagina-propia/img/foto4.jpg" alt="" width="200" height="150"> </td>
+                    </tr>
+                </table>
 
             </article>
+
+            <div class="enlaces" id="enlaces">
+                <h2>Enlaces</h2>
+                <section>
+
+                    <a href="https://youtu.be/XQxQhrrc0fE?si=pEIF02R-BdUde-WW"></a>
+                </section>
+
+            </div>
 
         </main>
         <footer>

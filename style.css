@@ -1,9 +1,15 @@
 *{
     margin: auto;
-    background: #41d9d6;
+    
 }
 
-main{
+.main{
+    border: dotted #9d6ad4;
+    border-radius: 5%;
     margin: 200px;
-    background-color: rgb(240, 233, 224);
+    color: rgb(240, 233, 224);
+}
+
+article{
+    background-color: rgb(232, 225, 225);
 }

@@ -1,15 +1,40 @@
-*{
-    margin: auto;
-    
+body {
+    width: 120hv;
+    height: 120px;
+    font-family: 'Nimrod';
+    margin: 30px;
+    background-color: rgb(213, 160, 204);
 }
 
-.main{
-    border: dotted #9d6ad4;
-    border-radius: 5%;
-    margin: 200px;
-    color: rgb(240, 233, 224);
+h1{
+    text-align: center;
+
 }
 
-article{
-    background-color: rgb(232, 225, 225);
+
+main {
+    margin: 16px;
+    padding: 17px;
+    background-color: #d46dd6;
+    position: relative;
+    border-radius: 2ch;
+}
+
+article h2 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(242, 22, 132);
+    text-transform: uppercase;
+}
+
+.articulo1, .articulo2, .articulo3 {
+   text-align: justify;
+    position: relative;
+    flex-wrap: wrap;
+    font-family: 'Georgia';
+}
+
+.articulo1 h3, .articulo2 h3, .articulo3 h3 {
+    text-align: center;
+   font-size: 20px;
 }

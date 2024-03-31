@@ -1,40 +1,27 @@
-body {
-    width: 120hv;
-    height: 120px;
-    font-family: 'Nimrod';
-    margin: 30px;
-    background-color: rgb(213, 160, 204);
+body{
+    background-image: url('../pagina-propia/img/stars.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-h1{
-    text-align: center;
-
+nav {
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    top: 20%;
+    
 }
 
-
-main {
-    margin: 16px;
-    padding: 17px;
-    background-color: #d46dd6;
-    position: relative;
-    border-radius: 2ch;
+nav ul li a{
+    text-decoration: none;
+    color: rgb(90, 81, 83);
+    align-content: center;
+    justify-content: center;
 }
-
-article h2 {
-    font-size: 30px;
-    text-align: center;
-    color: rgb(242, 22, 132);
-    text-transform: uppercase;
-}
-
-.articulo1, .articulo2, .articulo3 {
-   text-align: justify;
-    position: relative;
-    flex-wrap: wrap;
-    font-family: 'Georgia';
-}
-
-.articulo1 h3, .articulo2 h3, .articulo3 h3 {
-    text-align: center;
-   font-size: 20px;
+ 
+nav ul li{
+    list-style: none;
 }

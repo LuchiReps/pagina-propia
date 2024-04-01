@@ -49,8 +49,9 @@ header {
 
 .menu_items {
     display: flex;
-    padding: 2px 47px 2px 235px;
+    padding: 2px 300px 2px 470px;
     align-items: center;
+    
 
 }
 
@@ -58,7 +59,7 @@ header {
     border-radius: 3px;
     margin: 3px 41px -13px 22px;
     list-style: none;
-
+    justify-content: space-around;
 }
 
 

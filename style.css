@@ -77,6 +77,11 @@ header {
 
 }
 
+.menu_items li :hover{
+background-color: rgb(131, 67, 131);
+color: #eeeeee;
+} 
+
 .main {
     margin: 20px;
     padding: 30px;
@@ -149,9 +154,9 @@ header {
 
 .imagen2 {
     position: absolute;
-    margin: 0 0 110px 50px;
+    margin: 0 0 110px 60px;
     left: 12px;
-    bottom: -530px;
+    bottom: -489px;
     object-fit: cover;
     border-radius: 3ch;
     filter: contrast(115%);
@@ -176,7 +181,7 @@ header {
 .imagen3{
    position: absolute;
    right: 124px;
-   bottom: -760px;
+   bottom: -730px;
     object-fit: cover;
     border-radius: 3ch;
     
@@ -197,5 +202,27 @@ fieldset {
     border-radius: 3ch;
     position: relative;
     padding: 50px 90px 30px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 
+}
+
+fieldset h2{
+    font-family: "Poppins", sans-serif;
+     text-align: center;
+}
+
+input{
+    background-color: #eeeeee;   
+}
+h5{
+    font-family: "Poppins", sans-serif;
+}
+
+.radio{
+    color: rgb(49, 49, 47);
+}
+label{
+    font-family: "Poppins", sans-serif;
+    color: rgb(49, 49, 47);
 }

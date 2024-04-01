@@ -1,26 +1,23 @@
-* {
-    font-family: 'Gill Sans';
-}
-
 body {
     margin: auto;
     min-height: 100vh;
     font-size: 100%;
     /*  background-color: rgb(186, 129, 192);*/
-    background: linear-gradient(#cb62ff, #d47cff, #dc96ff, #e5b0ff, #eecbff, #f6e5ff);
+    background: linear-gradient(#ae55db, #c658fd, #d279ff, #d98efe, #d597f5);
 }
 
 main {
     flex-wrap: wrap;
     margin: 20px 30px;
-    background: linear-gradient(#afff9b, #caffbd, #e4ffde);
+    /* background: linear-gradient(#afff9b, #caffbd, #e4ffde);*/
+    background: #f6e5ff;
     border-radius: 5ch;
 }
 
 
 header h1 {
+    font-family: "Emilys Candy", serif;
     text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -92,6 +89,7 @@ header {
 }
 
 .articulos h2 {
+    font-family: "Emilys Candy", serif;
     text-align: center;
     justify-content: center;
     margin: auto;
@@ -106,17 +104,16 @@ header {
     padding: 5px 0;
     font-size: 20px;
     text-indent: 40px;
+    font-family: "Emilys Candy", serif;
 }
 
 .articulos p {
     justify-items: center;
     margin: 15px 14px;
-    font-family: 'Lucida Sans Unicode';
-
+    font-family: "Poppins", sans-serif;
 }
 
 .articulo1 {
-    border: solid 5px #659d55;
     margin: 40px 500px 40px 106px;
     display: inline-block;
     margin-left: 0;
@@ -124,31 +121,24 @@ header {
     border-radius: 5ch;
 }
 
-img {
+.articulo1 img {
     margin: 8px -10px 8px 20px;
     position: absolute;
     right: 95px;
     bottom: 40px;
     object-fit: cover;
     border-radius: 3ch;
-    border: solid 2px #659d55;
+    filter: contrast(115%);
 }
 
-img figure{
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0px 15px 25px
-    rgba(0, 0, 0, 0.50);
-}
 
-img:hover{
-    filter: blur(1px);
-    content: counter('Hola');
+.articulo1 img:hover {
 
+    filter: drop-shadow(12px 16px 50px)
 }
 
 .articulo2 {
-    border: solid 5px #659d55;
+   
     margin: 100px 200px 40px 400px;
     display: inline-block;
     margin-right: 0;
@@ -157,12 +147,55 @@ img:hover{
 
 }
 
+.imagen2 {
+    position: absolute;
+    margin: 0 0 110px 50px;
+    left: 12px;
+    bottom: -530px;
+    object-fit: cover;
+    border-radius: 3ch;
+    filter: contrast(115%);
+}
+
+.imagen2:hover {
+
+    filter: drop-shadow(12px 16px 50px)
+}
+
+
+
 .articulo3 {
-    border: solid 5px #659d55;
     margin: 40px 500px 40px 106px;
     display: inline-block;
     margin-left: 0;
     padding-left: 0;
     border-radius: 5ch;
+
+}
+
+.imagen3{
+   position: absolute;
+   right: 124px;
+   bottom: -760px;
+    object-fit: cover;
+    border-radius: 3ch;
+    
+    filter: contrast(115%);
+}
+
+.imagen3:hover {
+
+    filter: drop-shadow(12px 16px 50px)
+}
+
+fieldset {
+    color: #ae55db;
+    border: solid 2px #d279ff;
+    background: linear-gradient(#ef8ced, rgb(247, 182, 247), #dda1d1);
+    width: 100px;
+    margin: auto;
+    border-radius: 3ch;
+    position: relative;
+    padding: 50px 90px 30px;
 
 }

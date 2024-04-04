@@ -1,0 +1,90 @@
+body {
+    margin: auto;
+    min-height: 100vh;
+    font-size: 100%;
+    /*  background-color: rgb(186, 129, 192);*/
+    background: linear-gradient(#ae55db, #c658fd, #d279ff, #d98efe, #d597f5);
+}
+
+main {
+    flex-wrap: wrap;
+    margin: 20px 30px;
+    /* background: linear-gradient(#afff9b, #caffbd, #e4ffde);*/
+    background:  transparent/* #f6e5ff*/;
+    border-radius: 5ch;
+}
+
+
+header h1 {
+    font-family: "Emilys Candy", serif;
+    text-align: left;
+
+}
+
+header {
+    display: flex;
+    margin: 0 0px 15px 20px;
+    justify-content: left;
+    background-color: transparent;
+    height: 60px;
+
+
+
+}
+
+.menu {
+    justify-content: space-between;
+    display: flex;
+    width:218.1vh;
+    height: 74px;
+    flex-wrap: wrap;
+    margin: -76px 0px 16px;
+    align-items: center;
+    background-color: transparent;
+    background-color: rgb(254, 252, 252);
+
+}
+
+.menu_items {
+    display: flex;
+    padding: 2px 300px 2px 470px;
+    align-items: center;
+
+
+}
+
+.menu_items li {
+    border-radius: 3px;
+    margin: 3px 41px -13px 22px;
+    list-style: none;
+    justify-content: space-around;
+}
+
+
+.menu_items li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 45px;
+    margin-bottom: 5px;
+}
+
+.menu_items a {
+    color: rgb(49, 56, 49);
+    background-color: transparent;
+    padding: 8px 6px 8px 6px;
+    border-radius: 5ch;
+    margin-bottom: 20px;
+
+}
+
+.menu_items li :hover{
+background-color: rgb(131, 67, 131);
+color: #eeeeee;
+} 
+
+.main {
+    margin: 20px;
+    padding: 30px;
+    background-color: rgb(196, 116, 239);
+}

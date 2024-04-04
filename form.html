@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>form</title>
+</head>
+<body>
+     
+    <fieldset>
+        <h2>Formulario de Registro</h2>
+        <section class="lugar">
+            <h3> Datos Requieridos </h3>
+            <label for="firstname"> Nombre: </label>
+            <input type="text" size="30" placeholder=" Ingrese su nombre... ">
+            <br><br>
+            <label for="lastname"> Apellido: </label>
+            <input type="text" size="30" name="lastname" placeholder=" Ingrese su apellido... ">
+            <br><br>
+            <label for="street"> Direccion: </label>
+            <input type="text" name="adress" placeholder="Donde vivis? ">
+            <label for="city"> Ciudad: </label>
+            <input type="text" size="30" name="city" value="C.A.B.A">
+            <br><br>
+            <label for="telefono"> Telefono </label>
+            <input type="tel" name="telefono" placeholder=" Ingrese su numero... ">
+            <br><br>
+            <label for="BirthDate"> Fecha Nac. (mm/dd/yyyy): </label>
+            <input type="date" name="birthdate">
+
+            <p>
+            <h5> Genero</h5>
+            <section class="radio">
+            <input type="radio" name="gender" value="hombre"> Hombre
+            <input type="radio" name="gender" value="mujer" checked> Mujer
+            <input type="radio" name="gender" value="otro"> Otro
+            </p>
+        </section>
+        </section>
+    </fieldset>
+</body>
+</html>

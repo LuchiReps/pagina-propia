@@ -96,15 +96,44 @@
                 <img class="imagen3" src="../pagina-propia/img/red.jpg" alt="" width="350" height="200">
             </article>
 
-            <form action="" class="form" id="formulario">
-                <div class="formulario_grupo" id="grupo__usuario">
-                    <label for="usuario" class="formulario__label"> Usuario </label>
+        <form action="" class="formulario" id="formulario">
+                <div class="formulario_grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label"> nombre </label>
                     <div class="formulario__grupo-input">
-                        <input type="text" class="formulario__input" name="usuario">
+                        <input type="text" class="formulario__input" name="nombre" placeholder="John Doe">
+                        <i class="fas fa-times"></i>
                     </div>
+                    <p class="formulario__input-error"> El usuario debe tener entre 4 y 16 digitos , solo contener numeros y guion bajo</p>
                 </div>
-            </form>
+          
+                <div class="formulario_grupo" id="grupo__password">
+                    <label for="password" class="formulario__label"> Contrasena </label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="password" placeholder=" Introduce Password">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <p class="formulario__input-error"> La password debe tener entre 4 y 16 digitos , solo contener numeros y guion bajo</p>
+                </div>
+           
+                <div class="formulario_grupo" id="grupo__password2">
+                    <label for="password" class="formulario__label"> Repetir Contrasena </label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="password" placeholder="John Doe">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <p class="formulario__input-error"> Ambas contrasenas deben ser iguales</p>
+                </div>
+            
+                <div class="formulario_grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label"> nombre </label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="nombre" placeholder="">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <p class="formulario__input-error"> El usuario debe tener entre 4 y 16 digitos , solo contener numeros y guion bajo</p>
+                </div>
 
+            </form>
 
             <!--    <fieldset>
                 <h2>Formulario de Registro</h2>
